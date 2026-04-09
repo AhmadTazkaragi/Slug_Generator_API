@@ -1,4 +1,4 @@
-# Slug Generator API (NestJS / Node.js)
+# Slug Generator API (NestJS)
 
 A production-quality REST API that converts text into a URL-friendly slug.
 
