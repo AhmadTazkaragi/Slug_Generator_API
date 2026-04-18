@@ -7,7 +7,7 @@ describe('SlugController', () => {
 
   // 🔥 Mock Service
   const mockSlugService = {
-    slugify: jest.fn((text: string) => 'hello-world'),
+    slugify: jest.fn(() => 'hello-world'),
   };
 
   beforeEach(async () => {
