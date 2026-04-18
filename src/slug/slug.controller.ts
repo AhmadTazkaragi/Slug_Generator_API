@@ -3,7 +3,6 @@ import { SlugService } from './slug.service';
 
 @Controller('slugify')
 export class SlugController {
-
   constructor(private readonly slugService: SlugService) {}
 
   @Post()
@@ -12,5 +11,4 @@ export class SlugController {
 
     return { slug };
   }
-
-} 
+}
